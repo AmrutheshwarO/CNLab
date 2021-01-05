@@ -45,7 +45,7 @@ void delete(){
     for (i = 0; i <= rear; i++) {
         if (pq[i] == data) {
             for (; i < rear; i++)
-                pq[i] = pq[i + 1];
+                pq[i] = pq[i+1];
             pq[i] = -99;
             rear--;
             if (rear == -1)
